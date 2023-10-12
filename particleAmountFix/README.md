@@ -26,7 +26,7 @@ Manual particle emission will occur only when the emitter is told to emit via th
 ## Installation
 
 1. Copy and paste the particles folder into your Bedrock resouce pack.
-2. If you already have your own particle files, make sure to merge them proberly.
+2. If you already have your own particle files, make sure to merge them properly.
 
 ## Contributions
 

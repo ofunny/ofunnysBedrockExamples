@@ -1,0 +1,41 @@
+{
+
+  "__comment": "Modified by: ofunny, contact: https://ofunny.world/, repository: https://github.com/ofunny/ofunnysBedrockExamples/",
+  "namespace": "chest",
+
+  "small_chest_screen@common.inventory_screen_common": {
+    "$atitle": "$container_title",
+    "$ofunnymenu": "(('%.2s' * $atitle) = '§')",
+    "variables": [
+      {
+        "requires": "($desktop_screen or $ofunnymenu)",
+        "$screen_content": "chest.small_chest_panel",
+        "$screen_bg_content": "common.screen_background",
+        "$screen_background_alpha": 0.4
+      },
+      {
+        "requires": "($pocket_screen and not $ofunnymenu)",
+        "$use_custom_pocket_toast": true,
+        "$screen_content": "pocket_containers.small_chest_panel"
+      }
+    ]
+  },
+
+  "large_chest_screen@common.inventory_screen_common": {
+    "$atitle": "$container_title",
+    "$ofunnymenu": "(('%.2s' * $atitle) = '§')",
+    "variables": [
+      {
+        "requires": "($desktop_screen or $ofunnymenu)",
+        "$screen_content": "chest.large_chest_panel",
+        "$screen_bg_content": "common.screen_background",
+        "$screen_background_alpha": 0.4
+      },
+      {
+        "requires": "($pocket_screen and not $ofunnymenu)",
+        "$use_custom_pocket_toast": true,
+        "$screen_content": "pocket_containers.large_chest_panel"
+      }
+    ]
+  }
+}

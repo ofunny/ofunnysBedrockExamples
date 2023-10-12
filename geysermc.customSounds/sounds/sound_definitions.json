@@ -4,15 +4,15 @@
 	"sound_definitions": {
 		"ofunny:super.fart": {
 			"category": "hostile",
-		    "sounds": [
-		      {
-				"load_on_low_memory" : true,
-		        "name": "sounds/ofunny/fart",
-				"interruptible": false,
-		        "volume": 1.0,
-				"is3D": false,
-				"min_distance": 1000000.0,
-				"max_distance": 1000050.0
+			"sounds": [
+				{
+					"load_on_low_memory" : true,
+					"name": "sounds/ofunny/fart",
+					"interruptible": false,
+					"volume": 1.0,
+					"is3D": false,
+					"min_distance": 99000000.0,
+					"max_distance": 99000050.0
 		      }
 		    ]
 		}

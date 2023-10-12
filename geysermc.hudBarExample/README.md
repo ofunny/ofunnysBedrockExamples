@@ -4,6 +4,20 @@ Welcome to the Minecraft Bedrock Custom HUD Bar Example! 🌟
 
 This example demonstrates how to create a custom HUD (Heads-Up Display) bar using the ItemAdder plugin from Java. While this example was designed for ItemsAdder's thirst bar (https://itemsadder.devs.beer/faq/fill-thirst-mana-bar), the same approach can be applied to other plugins with minor adjustments, such as modifying the Unicode characters used to identify the custom bar message.
 
+## Minimum Required Knowledge
+
+To effectively work with this custom HUD bar example, it is essential to have the following knowledge:
+
+1. **Bedrock Emojis**: Understanding how Bedrock emojis work is crucial. You can refer to the official documentation [here](https://wiki.bedrock.dev/concepts/emojis.html) for detailed information.
+
+2. **Unicode**: Familiarity with Unicode, its purpose, and how it represents characters is important. You can learn more about Unicode from this [Wikipedia page](https://en.wikipedia.org/wiki/Unicode).
+
+3. **Action Bars**: You should know what action bars are in the context of Minecraft Bedrock. You can find information about action bars on the [Minecraft Fandom website](https://minecraft.fandom.com/wiki/Commands/title).
+
+4. **JSON UI**: A solid understanding of JSON UI (User Interface) is essential. You can get acquainted with JSON UI concepts by referring to the [official documentation](https://wiki.bedrock.dev/json-ui/json-ui-intro.html).
+
+Having a grasp of these concepts will make it easier for you to understand and modify the custom HUD bar example to suit your specific needs.
+
 ## Customizing the Action Bar Text
 
 Custom HUD bars in Java are implemented using action bar messages, which are continuously sent to players who should see the bar. The same approach applies when using GeyserMC for Bedrock clients. However, unlike Java, Bedrock does not have the capability to use custom emojis for positioning and alignment. Therefore, we must place our custom bar using JSON UI. To distinguish whether an action bar message is a regular action bar or belongs to our custom HUD, we can rely on the Unicode characters used for positioning and alignment by the corresponding Java plugin to identify the message in Bedrock via JSON UI.

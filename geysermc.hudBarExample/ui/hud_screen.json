@@ -1,0 +1,59 @@
+{
+
+  "__comment": "Created by: ofunny, contact: https://ofunny.world/, repository: https://github.com/ofunny/ofunnysBedrockExamples/",
+
+  "hud_actionbar_text": {
+      "$localtext": "$actionbar_text",
+      "visible": "(not (('%.12s' * $localtext) = ''))"
+  },
+
+  "ofunnys_hud_bar_text": {
+      "type": "stack_panel",
+      "size": [ "100%c", "100%c" ],
+      "offset": [ "50%c", "50%-48px" ],
+      "controls": [
+        {
+          "actionbar_message": {
+            "type": "label",
+            "anchor_from": "center",
+            "anchor_to": "center",
+            "color": "$tool_tip_text",
+            "layer": 31,
+            "text": "$formattedtext",
+            "localize": false,
+            "bindings": [
+                {
+                  "binding_name": "#show_survival_ui",
+                  "binding_name_override": "#visible"
+                }
+            ]
+          }
+        }
+      ],
+      "$localtext": "$actionbar_text",
+      "$formattedtext": "($localtext - '' - '' - '')",
+      "visible": "(('%.12s' * $localtext) = '')"
+  },
+
+  "ofunnys_hud_bar_text_factory": {
+    "type": "panel",
+    "factory": {
+      "name": "hud_actionbar_text_factory",
+      "control_ids": {
+        "hud_actionbar_text": "ofunnys_hud_bar_text@hud.ofunnys_hud_bar_text"
+      }
+    }
+  },
+
+  "root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": {
+          "ofunnys_hud_bar_text_factory@hud.ofunnys_hud_bar_text_factory": {}
+        }
+      }
+    ]
+  }
+}

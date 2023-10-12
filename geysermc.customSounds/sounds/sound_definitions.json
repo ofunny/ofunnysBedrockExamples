@@ -1,0 +1,20 @@
+{
+	"format_version": "1.14.0",
+	"__comment": "Created by: ofunny, contact: https://ofunny.world/, repository: https://github.com/ofunny/ofunnysBedrockExamples/",
+	"sound_definitions": {
+		"ofunny:super.fart": {
+			"category": "hostile",
+		    "sounds": [
+		      {
+				"load_on_low_memory" : true,
+		        "name": "sounds/ofunny/fart",
+				"interruptible": false,
+		        "volume": 1.0,
+				"is3D": false,
+				"min_distance": 1000000.0,
+				"max_distance": 1000050.0
+		      }
+		    ]
+		}
+	}
+}

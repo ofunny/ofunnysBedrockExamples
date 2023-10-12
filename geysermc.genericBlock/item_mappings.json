@@ -1,0 +1,14 @@
+{
+  "format_version": "1",
+  "items": {
+    "minecraft:paper": [
+      {
+        "name": "of_andesite_bricks",
+        "allow_offhand": true,
+        "icon": "of_andesite_bricks",
+        "frame": 0,
+        "custom_model_data": 10001
+      }
+    ]
+  }
+}

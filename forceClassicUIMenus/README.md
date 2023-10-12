@@ -17,3 +17,6 @@ To make this feature work, the '%.xs' format operator is utilized, which extract
 
 Please note that this feature is designed specifically for plugin menus that use color code to initiate the menu title.
 
+## License
+
+Please respect the license information provided on [ofunnysBedrockExamples](https://github.com/ofunny/ofunnysBedrockExamples) and ensure proper attribution.

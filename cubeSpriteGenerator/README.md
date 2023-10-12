@@ -37,4 +37,7 @@ Open the script and change the following lines to use alternative suffixes
 up_suffix="_top"  
 north_suffix="_north"  
 west_suffix="_west"  
-  
+
+## License
+
+Please respect the license information provided on [ofunnysBedrockExamples](https://github.com/ofunny/ofunnysBedrockExamples) and ensure proper attribution.

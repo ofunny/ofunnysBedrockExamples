@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "geyser_custom",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "of_andesite_bricks": {
+      "textures": "textures/ofunny/sprites/blocks/andesite_bricks"
+    }
+  }
+}

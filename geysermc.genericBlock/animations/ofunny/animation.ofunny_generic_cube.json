@@ -1,0 +1,107 @@
+{
+    "format_version": "1.8.0",
+    "__comment": "Created by: ofunny, contact: https://ofunny.world/, repository: https://github.com/ofunny/ofunnysBedrockExamples/",
+    "animations": {
+        "animation.geo_ofunny_generic_cube.thirdperson_main_hand": {
+            "loop": true,
+            "bones": {
+                "block": {
+                    "rotation": [
+                        -0.12,
+                        0.89,
+                        -0.05
+                    ],
+                    "position": [
+                        0,
+                        14,
+                        -6
+                    ],
+                    "scale": [
+                        0.375,
+                        0.375,
+                        0.375
+                    ]
+                }
+            }
+        },
+        "animation.geo_ofunny_generic_cube.thirdperson_off_hand": {
+            "loop": true,
+            "bones": {
+                "block": {
+                    "rotation": [
+                        0.45,
+                        0.89,
+                        0.45
+                    ],
+                    "position": [
+                        0,
+                        13,
+                        -6
+                    ],
+                    "scale": [
+                        0.375,
+                        0.375,
+                        0.375
+                    ]
+                }
+            }
+        },
+        "animation.geo_ofunny_generic_cube.head": {
+            "loop": true,
+            "bones": {
+                "block": {
+                    "position": [
+                        0,
+                        19.9,
+                        0
+                    ],
+                    "scale": 0.63
+                }
+            }
+        },
+        "animation.geo_ofunny_generic_cube.firstperson_main_hand": {
+            "loop": true,
+            "bones": {
+                "block": {
+                    "rotation": [
+                        0.78,
+                        0.21,
+                        0.07
+                    ],
+                    "position": [
+                        -1,
+                        17,
+                        0
+                    ],
+                    "scale": [
+                        0.52,
+                        0.52,
+                        0.52
+                    ]
+                }
+            }
+        },
+        "animation.geo_ofunny_generic_cube.firstperson_off_hand": {
+            "loop": true,
+            "bones": {
+                "block": {
+                    "rotation": [
+                        -0.11,
+                        0.83,
+                        -0.11
+                    ],
+                    "position": [
+                        -17.5,
+                        17.5,
+                        15
+                    ],
+                    "scale": [
+                        0.52,
+                        0.52,
+                        0.52
+                    ]
+                }
+            }
+        }
+    }
+}

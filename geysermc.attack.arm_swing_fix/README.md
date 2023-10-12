@@ -14,6 +14,8 @@ This will only fix the attack/arm swing animation, if the attachable's initial p
 
 "vr_attack_rotation" (virtual reality) still has vanilla defaults and might be adjusted in a furture version.
 
-Yours ofunny, 
-## Discord: https://discord.ofunny.world
+Yours ofunny
 
+## License
+
+Please respect the license information provided on [ofunnysBedrockExamples](https://github.com/ofunny/ofunnysBedrockExamples) and ensure proper attribution.

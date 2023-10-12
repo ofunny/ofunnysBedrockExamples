@@ -28,7 +28,7 @@ In the example below, I use the first four Unicode characters from ItemsAdder's 
 
 If the custom HUD action bar sent by your Java plugin displays a specific emoji from the provided glyph sheet, combining the sheet's name with the slot index will yield the Unicode character required to construct the identifier below.
 
-E.g
+E.g.
 
 - glyphsheet: glyph_F0.png
 - slot index: 0F
@@ -37,8 +37,7 @@ would than result in the Unicode character U+F00F, you can use any Unicode tool 
 
 ### Hiding the Default Action Bar
 
-The following code snippet helps hide the default action bar when the first four characters of the text are not specific Unicode characters used by the Java plugin.
-Each Unicode character in my example take 3 bytes and therefore we extract the first 12 bytes using the '%.12s' operator.
+The following code snippet within the "hud_screen.json" helps to hide the default action bar when the first four characters of the text are not specific Unicode characters used by the Java plugin. Each Unicode character in my example takes 3 Bytes and therefore we extract the first 12 Bytes using the '%.12s' operator (adjust that to your needs).
 
 ```json
 "hud_actionbar_text": {
@@ -51,7 +50,7 @@ This ensures that the default action bar remains hidden unless the required Unic
 
 ### Creating a Custom HUD Bar
 
-Now, let's dive into creating your custom HUD bar. The following code within `"ofunnys_hud_bar_text"` lets you design a unique panel for your HUD. It also removes all Unicode characters used for alignment so they will no longer bother in the final bar displayed within the Bedrock client.
+Now, let's dive into creating your custom HUD bar. The following code snippet `"ofunnys_hud_bar_text"` within "hud_screen.json" lets you design a unique panel for your HUD. It also removes all Unicode characters used for alignment so they will no longer bother in the final bar displayed within the Bedrock client.
 
 ```json
 "$localtext": "$actionbar_text",

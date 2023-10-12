@@ -12,6 +12,8 @@ In the root folder of this repository, you'll find various directories, each hou
 
 Everything in this repository is released under the GNU General Public License, version 3 (GPL-3.0). This means you can use, modify, and even share these scripts and resource pack examples, whether for personal fun or commercial use. Just make sure you follow the GPL-3.0 license terms. You can read the full license here: [GPL-3.0 License](https://github.com/ofunny/ofunnysBedrockExamples/blob/main/LICENSE).
 
+In accordance with the GNU General Public License, version 3 (GPL-3), you are required to attribute the original author in any use or distribution of this code. Please include the author's name and contact information as provided below.
+
 ## Compatibility
 
 Some of the examples provided here are designed to work seamlessly with GeyserMC, a fantastic project that bridges the gap between Minecraft Java Edition and Bedrock Edition. If you're a GeyserMC user, you'll find specific examples tailored for your needs. However, don't worry if you're not using GeyserMC. Many examples are versatile and can be used on Bedrock Edition without any special plugins or tools.

@@ -2,13 +2,13 @@
 	"format_version": 1,
 	"__comment": "Created by: ofunny, contact: https://ofunny.world/, repository: https://github.com/ofunny/ofunnysBedrockExamples/",
 	"blocks": {
-		"minecraft:note_block": {
-			"name": "ofunny_note_block",
+        "minecraft:note_block": {
+            "name": "ofunny_note_block",
             "geometry": "geometry.geo_ofunny_generic_cube",
             "included_in_creative_inventory": false,
             "only_override_states": true,
             "place_air": true,
-			"state_overrides": {
+            "state_overrides": {
                 "instrument=snare,note=6,powered=false": {
                     "name": "andesite_bricks",
                     "display_name": "Andesite Bricks",

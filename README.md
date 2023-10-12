@@ -1,12 +1,16 @@
-# Welcome to the "ofunny's Bedrock Examples" GitHub Repository
+# Welcome to "ofunny's Bedrock Examples" GitHub Repository
 
 ## Overview
 
 Hey there, fellow Minecraft enthusiasts! This is ofunny, and I've put together this repository to share some Bedrock resource pack examples and scripts that can help you amp up your Minecraft experience. The collection is a work in progress, and I plan to keep expanding it over time.
 
+## Repository Structure
+
+In the root folder of this repository, you'll find various directories, each housing individual examples. Some directories contain resource pack examples that are ready to be dropped into your own project, while others hold standalone scripts designed to perform specific tasks. To assist you in making the most of these resources, relevant directories are accompanied by a README file. These READMEs provide explanations and additional details where necessary, helping you navigate the examples with ease.
+
 ## License
 
-Everything in this repository is released under the GNU General Public License, version 3 (GPL-3.0). This means you can use, modify, and even share these scripts and resource pack examples, whether for personal fun or commercial use. Just make sure you follow the GPL-3.0 license terms. You can read the full license here: [GPL-3.0 License](https://www.gnu.org/licenses/gpl-3.0.en.html).
+Everything in this repository is released under the GNU General Public License, version 3 (GPL-3.0). This means you can use, modify, and even share these scripts and resource pack examples, whether for personal fun or commercial use. Just make sure you follow the GPL-3.0 license terms. You can read the full license here: [GPL-3.0 License](https://github.com/ofunny/ofunnysBedrockExamples/blob/main/LICENSE).
 
 ## Compatibility
 
@@ -29,7 +33,7 @@ Feel free to explore the scripts and resource pack examples in this repository, 
 
 If you have any questions, suggestions, or contributions, please don't hesitate to get in touch.
 
-[Explore the Repository](https://github.com/ofunnysBedrockExamples)
+[Explore the Repository](https://github.com/ofunny/ofunnysBedrockExamples)
 
 [Visit ofunny's Website](https://ofunny.world)
 

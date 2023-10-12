@@ -1,6 +1,6 @@
 {
-	"__comment": "Modified by: ofunny, contact: https://ofunny.world/, repository: https://github.com/ofunny/ofunnysBedrockExamples/",
 	"format_version" : "1.8.0",
+	"__comment": "Modified by: ofunny, contact: https://ofunny.world/, repository: https://github.com/ofunny/ofunnysBedrockExamples/",
 	"animations": {
 		"animation.player.first_person.attack_rotation": {
 			"loop": true,

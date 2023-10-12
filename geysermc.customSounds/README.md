@@ -12,7 +12,7 @@ To start creating your custom Bedrock sounds, you need to follow these steps:
 
 2. Create a `sound_definitions.json` file, which should be placed within the "sounds" folder of your Bedrock resource pack. You can use the example code provided here, and if you already have a `sound_definitions.json` file, ensure that you merge it properly.
 
-3. Copy the provided example`sounds` directory into your Bedrock resource pack. This code within `sound_definitions.json` will define how your custom sounds are structured and how they can be heard. 
+3. Copy the provided example`sounds` directory into your Bedrock resource pack. The code within `sound_definitions.json` will define how your custom sounds are structured and how they can be heard. 
 
 ## Playing Custom Sounds
 

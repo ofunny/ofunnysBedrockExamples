@@ -30,9 +30,8 @@ If the custom HUD action bar sent by your Java plugin displays a specific emoji 
 
 E.g
 
-glyphsheet: glyph_F0.png
-
-slot index: 0F
+- glyphsheet: glyph_F0.png
+- slot index: 0F
 
 would than result in the Unicode character U+F00F, you can use any Unicode tool to convert the code to text, e.g. https://r12a.github.io/app-conversion/
 

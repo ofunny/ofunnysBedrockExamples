@@ -9,7 +9,7 @@ For small_chest_screen and large_chest_screen, I have adjusted the way the menus
 If a menu title starts with a color code (§ in JSON UI / & in Java), this tweak will ignore the "Pocket Edition" profile settings and show the classic (desktop) inventory instead. This ensures that menus look consistent and better, but still allows players to choose Pocket UI for all other inventories within the game.
 
 ## HOW TO USE IT
-"Simply copy and paste the "chest_screen.json" file from this repository into your own Bedrock resource pack. Make sure to copy it into the "ui" folder of your resource pack. If you don't have an "ui" folder, then create one. If you already have a custom "chest_screen.json," make sure to merge the code with your existing 'chest_screen.json' file properly.
+Simply copy and paste the "chest_screen.json" file from this repository into your own Bedrock resource pack. Make sure to copy it into the "ui" folder of your resource pack. If you don't have an "ui" folder, then create one. If you already have a custom "chest_screen.json," make sure to merge the code with your existing 'chest_screen.json' file properly.
 
 ### Technical Details
 

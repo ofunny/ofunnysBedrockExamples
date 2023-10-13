@@ -1,6 +1,5 @@
+// Created by: ofunny, contact: https://ofunny.world/, repository: https://github.com/ofunny/ofunnysBedrockExamples/"
 {
-
-  "__comment": "Created by: ofunny, contact: https://ofunny.world/, repository: https://github.com/ofunny/ofunnysBedrockExamples/",
 
   "hud_actionbar_text": {
       "$localtext": "$actionbar_text",

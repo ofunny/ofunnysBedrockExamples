@@ -25,7 +25,7 @@ Some of the examples provided here are designed to work seamlessly with GeyserMC
 I encourage you to use and share these resources with the community, but there's one rule: give credit where credit's due. When you use or share any part of this code or the provided examples, please include the attribution of the paticular contributor. For example: 
 
 ```
-"__comment": "Created by: ofunny, contact: https://ofunny.world/, repository: https://github.com/ofunny/ofunnysBedrockExamples/",
+// Created by: ofunny, contact: https://ofunny.world/, repository: https://github.com/ofunny/ofunnysBedrockExamples/
 ```
 
 This attribution ensures that the community knows the source of these resources and helps promote collaboration and continued development.

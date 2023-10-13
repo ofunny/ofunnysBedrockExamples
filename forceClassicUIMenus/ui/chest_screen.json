@@ -1,6 +1,5 @@
+// Modified by: ofunny, contact: https://ofunny.world/, repository: https://github.com/ofunny/ofunnysBedrockExamples/"
 {
-
-  "__comment": "Modified by: ofunny, contact: https://ofunny.world/, repository: https://github.com/ofunny/ofunnysBedrockExamples/",
   "namespace": "chest",
 
   "small_chest_screen@common.inventory_screen_common": {

@@ -1,6 +1,6 @@
+// Created by: ofunny, contact: https://ofunny.world/, repository: https://github.com/ofunny/ofunnysBedrockExamples/"
 {
     "format_version": "1.10.0",
-    "__comment": "Created by: ofunny, contact: https://ofunny.world/, repository: https://github.com/ofunny/ofunnysBedrockExamples/",
     "minecraft:attachable": {
         "description": {
             "identifier": "geyser_custom:of_andesite_bricks",

@@ -174,9 +174,6 @@
       }
     ]
   },
-  "ender_chest_panel@chest.small_chest_panel": {},
-  "shulker_box_panel@chest.small_chest_panel": {},
-  "barrel_panel@chest.small_chest_panel": {},
   "small_chest_screen@common.inventory_screen_common": {
     "variables": [
       {
@@ -202,45 +199,6 @@
         "requires": "$pocket_screen",
         "$screen_content": "chest.large_chest_panel",
         "$screen_bg_content": "common.screen_background"
-      }
-    ]
-  },
-  "ender_chest_screen@common.inventory_screen_common": {
-    "variables": [
-      {
-        "requires": "$desktop_screen",
-        "$screen_content": "chest.ender_chest_panel",
-        "$screen_bg_content": "common.screen_background"
-      },
-      {
-        "requires": "$pocket_screen",
-        "$screen_content": "pocket_containers.ender_chest_panel"
-      }
-    ]
-  },
-  "shulker_box_screen@chest.small_chest_screen": {
-    "variables": [
-      {
-        "requires": "$desktop_screen",
-        "$screen_content": "chest.shulker_box_panel",
-        "$screen_bg_content": "common.screen_background"
-      },
-      {
-        "requires": "$pocket_screen",
-        "$screen_content": "pocket_containers.shulker_box_panel"
-      }
-    ]
-  },
-  "barrel_screen@chest.small_chest_screen": {
-    "variables": [
-      {
-        "requires": "$desktop_screen",
-        "$screen_content": "chest.barrel_panel",
-        "$screen_bg_content": "common.screen_background"
-      },
-      {
-        "requires": "$pocket_screen",
-        "$screen_content": "pocket_containers.barrel_panel"
       }
     ]
   }

@@ -37,7 +37,7 @@ would than result in the Unicode character U+F00F, you can use any Unicode tool 
 
 ### Hiding the Default Action Bar
 
-The following code snippet within the "hud_screen.json" helps to hide the default action bar when the first four characters of the text are not specific Unicode characters used by the Java plugin. Each Unicode character in my example takes 3 Bytes and therefore we extract the first 12 Bytes using the '%.12s' operator (adjust that to your needs).
+The following code snippet within the "hud_screen.json" helps to hide the default action bar when the first four characters of the action bar text are the specific Unicode characters used by the Java plugin to display the custom bar. Each Unicode character in my example takes 3 Bytes and therefore we extract the first 12 Bytes using the '%.12s' operator (adjust that to your needs).
 
 ```json
 "hud_actionbar_text": {
@@ -46,11 +46,11 @@ The following code snippet within the "hud_screen.json" helps to hide the defaul
 },
 ```
 
-This ensures that the default action bar remains hidden unless the required Unicode alignment characters are present.
+This ensures that the default action bar remains visible unless the required custom bar Unicode alignment characters are present.
 
 ### Creating a Custom HUD Bar
 
-Now, let's dive into creating your custom HUD bar. The following code snippet `"ofunnys_hud_bar_text"` within "hud_screen.json" lets you design a unique panel for your HUD. It also removes all Unicode characters used for alignment so they will no longer bother in the final bar displayed within the Bedrock client.
+Now, let's dive into creating your custom HUD bar. The following code snippet `"ofunnys_hud_bar_text"` within "hud_screen.json" lets you design a unique panel for your HUD. It also removes all Unicode characters [`"$formattedtext": "($localtext - '' - '' - '')"`] used for alignment so they will no longer bother in the final bar displayed within the Bedrock client.
 
 ```json
 "$localtext": "$actionbar_text",
@@ -58,7 +58,7 @@ Now, let's dive into creating your custom HUD bar. The following code snippet `"
 "visible": "(('%.12s' * $localtext) = '')"
 ```
 
-This means you can have a custom HUD bar that displays when the action bar text starts with the specific Unicode characters ''. Make your HUD truly yours!
+This means you can have a custom HUD bar that displays when the action bar text starts with the specific Unicode characters '' [`"visible": "(('%.12s' * $localtext) = '')"`]. Make your HUD truly yours!
 
 
 ## Positioning and Size Adjustment

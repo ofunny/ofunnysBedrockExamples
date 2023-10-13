@@ -46,7 +46,7 @@ The following code snippet within the "hud_screen.json" helps to hide the defaul
 },
 ```
 
-This ensures that the default action bar remains hidden unless the required Unicode alignment characters are present.
+This ensures that the default action bar remains visible unless the required custom bar Unicode alignment characters are present.
 
 ### Creating a Custom HUD Bar
 

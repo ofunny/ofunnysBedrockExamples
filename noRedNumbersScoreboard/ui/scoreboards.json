@@ -1,5 +1,6 @@
+// Modified by: DuneSciFye, 
 {
-    "scoreboard_sidebar_score": {
-      "visible": false
-    }
+  "scoreboard_sidebar_score": {
+    "visible": false
   }
+}

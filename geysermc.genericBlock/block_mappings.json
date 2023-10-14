@@ -1,8 +1,8 @@
 {
-	"format_version": 1,
-	"blocks": {
+    "format_version": 1,
+    "blocks": {
         "minecraft:note_block": {
-            "name": "ofunny_note_block",
+        "name": "ofunny_note_block",
             "geometry": "geometry.geo_ofunny_generic_cube",
             "included_in_creative_inventory": false,
             "only_override_states": true,

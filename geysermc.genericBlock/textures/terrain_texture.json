@@ -5,7 +5,7 @@
 	"num_mip_levels": 4,
 	"texture_data": {
 		"andesite_bricks": {
-			"textures": "textures/ofunny/blocks/buildersbasic/andesite_bricks"
+			"textures": "textures/ofunny/blocks/andesite_bricks"
 		}
 	}
 }

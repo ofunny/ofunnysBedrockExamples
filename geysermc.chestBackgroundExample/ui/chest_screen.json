@@ -1,0 +1,82 @@
+{
+  "namespace": "chest",
+
+  // General panel overlay for custom inventory backgrounds
+  "ofunnys_chest_panel": {
+    "type": "image",
+    "layer": 10,
+    "size": [192, 192],
+    "offset": [ 0, -59],
+    "$localtitle": "$container_title"
+  },
+
+  // Individual backgound implementations
+  "ofunnys_ia_categories@ofunnys_chest_panel": {
+    "texture":"textures/ui/inventory/ia/ia_categories",
+    "visible":"(not ($localtitle - '' = $localtitle))"
+  },
+
+  "ofunnys_ia_crafting@ofunnys_chest_panel": {
+    "texture":"textures/ui/inventory/ia/ia_crafting",
+    "visible":"(not ($localtitle - '' = $localtitle))"
+  },
+
+  // Just a simple panel to collect all individual panels at once
+  "ofunnys_chest_panels": {
+    "type": "panel",
+    "controls": [
+      { "ofunnys_ia_categories@ofunnys_ia_categories": {} },
+      { "ofunnys_ia_crafting@ofunnys_ia_crafting": {} }
+    ]
+  },
+
+  // Modification to add the background overlay panel
+  "large_chest_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": {
+          "ofunnys_chest_panels@ofunnys_chest_panels": {}
+        }
+      }
+    ]
+  },
+
+  // Force classic UI code
+  "small_chest_screen@common.inventory_screen_common": {
+    "$atitle": "$container_title",
+    "$ofunnymenu": "(('%.2s' * $atitle) = '§')",
+    "variables": [
+      {
+        "requires": "($desktop_screen or $ofunnymenu)",
+        "$screen_content": "chest.small_chest_panel",
+        "$screen_bg_content": "common.screen_background",
+        "$screen_background_alpha": 0.4
+      },
+      {
+        "requires": "($pocket_screen and not $ofunnymenu)",
+        "$use_custom_pocket_toast": true,
+        "$screen_content": "pocket_containers.small_chest_panel"
+      }
+    ]
+  },
+
+  "large_chest_screen@common.inventory_screen_common": {
+    "$atitle": "$container_title",
+    "$ofunnymenu": "(('%.2s' * $atitle) = '§')",
+    "variables": [
+      {
+        "requires": "($desktop_screen or $ofunnymenu)",
+        "$screen_content": "chest.large_chest_panel",
+        "$screen_bg_content": "common.screen_background",
+        "$screen_background_alpha": 0.4
+      },
+      {
+        "requires": "($pocket_screen and not $ofunnymenu)",
+        "$use_custom_pocket_toast": true,
+        "$screen_content": "pocket_containers.large_chest_panel"
+      }
+    ]
+  }
+}

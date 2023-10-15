@@ -1,10 +1,15 @@
 {
   "namespace": "chest",
 
+  // Optional, if you wanna move the container title above the custom chest menu background
+  "chest_label": {
+    //"layer": 10
+  },
+
   // General panel overlay for custom inventory backgrounds
   "ofunnys_chest_panel": {
     "type": "image",
-    "layer": 10,
+    "layer": 9,
     "size": [192, 192],
     "offset": [ 0, -59],
     "$localtitle": "$container_title"

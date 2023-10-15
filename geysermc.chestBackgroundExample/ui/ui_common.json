@@ -1,0 +1,9 @@
+{
+    "namespace": "common",
+
+    // Optional, if you wanna move the close button above the custom chest menu background
+    "common_panel/close_button_holder": {
+      //"layer": 10
+    }
+
+}
